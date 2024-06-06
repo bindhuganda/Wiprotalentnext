@@ -1,0 +1,26 @@
+import java.util.*;
+public class  trial
+
+{
+    public static void main(String[] args)
+    {
+        int m,n,a,b;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter two numbers");
+        m=sc.nextInt();
+        n=sc.nextInt();
+        if(m>0 && n>0)
+        {
+            a=m%10;
+            b=n%10;
+            if(a==b) {
+                System.out.println("true");
+            }
+            else
+            System.out.println("false");
+        }
+        else
+        System.out.println("re enter non-negative number");
+    }
+    
+}
