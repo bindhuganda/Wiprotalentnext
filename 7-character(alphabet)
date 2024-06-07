@@ -1,0 +1,23 @@
+import java.util.*;
+class Task5
+{
+public static void main(String[] args)
+{
+char ch;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the character");
+ch=sc.next().charAt(0);
+if(Character.isLetter(ch))
+{
+System.out.println("Alphabet");
+}
+else if(Character.isDigit(ch))
+{
+System.out.println("Digits");
+}
+else
+{
+System.out.println("Special Character");
+}
+}
+}
