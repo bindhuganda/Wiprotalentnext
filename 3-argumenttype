@@ -1,0 +1,20 @@
+import java.util.*;
+class task3
+{
+    public static void main(String[] args)
+    {
+        if(args.length==0)
+        {
+            System.out.println("no values");
+        }
+        else
+        {
+        System.out.println("values provided");
+          System.out.println(args[0]);
+          for(int i=1;i<args.length;i++)
+          {
+            System.out.print(","+args[i]);
+          }
+        }
+    }
+  }
