@@ -1,0 +1,17 @@
+import java.util.*;
+class task35
+{
+    public static void main(String[] args)
+    {
+        int a[]=new int[5];
+        Scanner sc=new Scanner(System.in);
+        for(int i=0;i<5;i++)
+        {
+            a[i]=sc.nextInt();
+        }
+        Arrays.sort(a);
+        System.out.println("the largest number are: "+a[a.length-1]+ ","+a[a.length-2]);
+        System.out.println("the smallest numbers are:"+a[0]+ ","+a[1]);
+}
+    }
+     
