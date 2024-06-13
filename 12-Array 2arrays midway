@@ -1,0 +1,34 @@
+import java.util.*;
+class taska12
+{
+    public static void main(String[] args)
+    {
+        int n,flag=0;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the numbers");
+        {
+        n=sc.nextInt();
+        }
+       int a[]=new int[n];
+       int b[]=new int[n];
+       int c[]=new int[n];
+       System.out.println("enter the elements of a");
+       for(int i=0;i<n;i++)
+       {
+        a[i]=sc.nextInt();
+       }
+       System.out.println("enter the elements of b");
+        for (int i=0;i<n;i++)
+        {
+            b[i]=sc.nextInt();
+        }
+        c[0]=a[1];
+        c[1]=b[1];
+        System.out.println("enter the new array");
+        for(int i=0;i<2;i++)
+        {
+           System.out.println(c[i]+"");
+        }
+
+    }
+}
